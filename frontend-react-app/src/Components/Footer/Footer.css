@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__buttom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.footer__buttom--icons {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.footer__buttom--p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}

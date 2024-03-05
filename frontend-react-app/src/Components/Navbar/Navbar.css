@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --navbar-font-color: purple;
+  --webpage-max-width: 1200px;
+  --webpage--padding-left-right: 2rem;
+}
+
+.navbar-wrapper {
+  box-shadow: 0 1px 3px -2px black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: var(--webpage-max-width);
+  height: 5rem;
+}
+
+.navbar__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.7rem 0.7rem 0.7rem var(--webpage--padding-left-right);
+}
+
+.navbar__left img {
+  height: 4.5rem;
+}
+
+.navbar__left p {
+  font-family: "Sofia";
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-left: min(0.5vw, 1rem);
+  color: var(--navbar-font-color);
+}
+
+.navbar__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.7rem var(--webpage--padding-left-right) 0.7rem 0.7rem;
+}
+
+.navbar__right--icon {
+  padding-left: 10vw;
+  padding-right: 5vw;
+  font-size: 2.5rem;
+  color: var(--navbar-font-color);
+}
+
+.navbar__right--login {
+  display: flex;
+  gap: 4vw;
+}
+
+.navbar__right--login button {
+  font-size: 1.1rem;
+  font-weight: 520;
+  border: none;
+  background-color: white;
+  color: var(--navbar-font-color);
+}
