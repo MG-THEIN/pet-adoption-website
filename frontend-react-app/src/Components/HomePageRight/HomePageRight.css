@@ -9,17 +9,6 @@
   --webpage--padding-left-right: 2rem;
 }
 
-.home-wraper {
-  background: hsl(0, 0%, 98%);
-}
-
-.home {
-  display: flex;
-
-  max-width: var(--webpage-max-width);
-  margin: auto;
-}
-
 .home__right {
   display: flex;
   flex-wrap: wrap;

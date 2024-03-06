@@ -1,0 +1,122 @@
+import bird1 from "./bird1.jpeg"
+import dog1 from "./dog1.jpeg"
+import dog2 from "./dog2.jpeg"
+import dog3 from "./dog3.jpeg"
+import duck1 from "./duck1.jpeg"
+import kit1 from "./kit1.jpeg"
+import kit2 from "./kit2.jpeg"
+import kit3 from "./kit3.jpeg"
+import rabbit1 from "./rabbit1.jpeg"
+
+let data = [
+  {
+    id: 1,
+    name: "Selena",
+    image: bird1,
+    breed: "ptibull",
+    age: "Puppy",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Roger",
+    image: kit1,
+    breed: "ptibull",
+    age: "Adult",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Ye",
+    image: dog1,
+    breed: "ptibull",
+    age: "Young",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Selena",
+    image: dog3,
+    breed: "ptibull",
+    age: 2,
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Tina",
+    image: dog2,
+    breed: "ptibull",
+    age: "Young",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Selena",
+    image: kit2,
+    breed: "ptibull",
+    age: "Puppy",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Selena",
+    image: duck1,
+    breed: "ptibull",
+    age: "Adult",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Selena",
+    image: kit3,
+    breed: "ptibull",
+    age: "Puppy",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+  {
+    id: 1,
+    name: "Selena",
+    image: rabbit1,
+    breed: "ptibull",
+    age: "Senior",
+    size: "medium",
+    gender: "male",
+    color: "yello",
+    good__with: "other dogs",
+    coath__length: "long",
+  },
+]
+
+export default data
