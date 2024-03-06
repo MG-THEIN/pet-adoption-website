@@ -35,6 +35,7 @@
 .search-bar__pet-type--dog-icon {
   color: white;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .search-bar__pet-type select {
@@ -43,6 +44,7 @@
   color: white;
   font-size: 1.2rem;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .search-bar__distance select {
@@ -50,4 +52,5 @@
   background: var(--navbar-font-color);
   color: white;
   font-size: 1.2rem;
+  cursor: pointer;
 }

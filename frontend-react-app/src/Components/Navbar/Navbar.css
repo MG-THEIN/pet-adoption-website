@@ -68,4 +68,5 @@
   border: none;
   background-color: white;
   color: var(--navbar-font-color);
+  cursor: pointer;
 }

@@ -4,7 +4,8 @@ import SearchBar from "./Components/SearchBar/SearchBar"
 import Footer from "./Components/Footer/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./Pages/Home"
-import LoginSignup from "./Pages/LoginSignup"
+import Login from "./Pages/Login"
+import Signup from "./Pages/Singup"
 import Item from "./Pages/Item"
 import Save from "./Pages/Save"
 
@@ -16,7 +17,8 @@ function App() {
         <SearchBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<LoginSignup />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/save" element={<Save />} />
           <Route path="item" element={<Item />}>
             <Route path=":itemId" element={<Item />} />
