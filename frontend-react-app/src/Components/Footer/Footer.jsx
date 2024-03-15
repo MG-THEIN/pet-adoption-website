@@ -32,11 +32,11 @@ const Footer = () => {
         </div>
         <div className="footer__buttom--p">
           <div>
-            <p>Copyright @ 2024 Pawcupid.com</p>
+            <p>Copyright @ 2024 Pawscupid.com</p>
           </div>
           <div>
             <p>
-              All trademarks are owned by Paw Cupid N.Y. Inc., or used with
+              All trademarks are owned by Paws Cupid N.Y. Inc., or used with
               permission.
             </p>
           </div>

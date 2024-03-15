@@ -1,12 +1,11 @@
 import "./App.css"
 import Navbar from "./Components/Navbar/Navbar"
-import SearchBar from "./Components/SearchBar/SearchBar"
 import Footer from "./Components/Footer/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./Pages/Home"
 import Login from "./Pages/Login"
 import Signup from "./Pages/Singup"
-import Item from "./Pages/Item"
+import PetDisplayPage from "./Pages/PetDisplayPage"
 import Save from "./Pages/Save"
 
 function App() {
@@ -14,14 +13,13 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
-        <SearchBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/save" element={<Save />} />
-          <Route path="item" element={<Item />}>
-            <Route path=":itemId" element={<Item />} />
+          <Route path="/pet" element={<PetDisplayPage />}>
+            <Route path=":petId" element={<PetDisplayPage />} />
           </Route>
         </Routes>
         <Footer />

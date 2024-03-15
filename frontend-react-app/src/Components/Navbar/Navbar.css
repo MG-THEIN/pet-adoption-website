@@ -28,11 +28,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0.7rem 0.7rem 0.7rem var(--webpage--padding-left-right);
+  padding: 0.7rem 0.7rem 0.7rem 0;
 }
 
 .navbar__left img {
   height: 4.5rem;
+  margin-left: 1.7rem;
 }
 
 .navbar__left p {

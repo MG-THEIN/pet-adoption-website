@@ -22,7 +22,7 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 2,
     name: "Roger",
     image: kit1,
     breed: "ptibull",
@@ -34,7 +34,7 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 3,
     name: "Ye",
     image: dog1,
     breed: "ptibull",
@@ -46,11 +46,11 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 4,
     name: "Selena",
     image: dog3,
     breed: "ptibull",
-    age: 2,
+    age: "Puppy",
     size: "medium",
     gender: "male",
     color: "yello",
@@ -58,7 +58,7 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 5,
     name: "Tina",
     image: dog2,
     breed: "ptibull",
@@ -70,7 +70,7 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 6,
     name: "Selena",
     image: kit2,
     breed: "ptibull",
@@ -94,7 +94,7 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 7,
     name: "Selena",
     image: kit3,
     breed: "ptibull",
@@ -106,7 +106,7 @@ let data = [
     coath__length: "long",
   },
   {
-    id: 1,
+    id: 8,
     name: "Selena",
     image: rabbit1,
     breed: "ptibull",

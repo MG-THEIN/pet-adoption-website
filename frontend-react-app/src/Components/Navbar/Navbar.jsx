@@ -14,7 +14,7 @@ const Navbar = () => {
             <img src={logo} alt="" />
           </Link>
           <Link style={{ textDecoration: "none" }} to="/">
-            <p>Paw Cupid</p>
+            <p>PawsCupid</p>
           </Link>
         </div>
         <div className="navbar__right">
