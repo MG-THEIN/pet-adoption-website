@@ -3,6 +3,7 @@ const port = 3000
 const express = require("express")
 const connectDB = require("./config/dbConn")
 const cors = require("cors")
+const errorHandler = require("./middleware/errorHandler.js")
 
 //to use .env variables
 dotenv.config()
@@ -19,6 +20,8 @@ connectDB()
 
 app.use("/auth", require("./routes/authRoutes.js"))
 app.use("/users", require("./routes/userRoutes.js"))
+
+app.use(errorHandler)
 
 app.listen(port, (error) => {
   if (!error) {
