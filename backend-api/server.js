@@ -17,7 +17,8 @@ connectDB()
 
 //API Creation
 
-app.use("/", require("./routes/userRoutes.js"))
+app.use("/auth", require("./routes/authRoutes.js"))
+app.use("/users", require("./routes/userRoutes.js"))
 
 app.listen(port, (error) => {
   if (!error) {
