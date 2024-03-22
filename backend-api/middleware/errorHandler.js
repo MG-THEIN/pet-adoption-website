@@ -1,10 +1,14 @@
 const errorHandler = (err, req, res, next) => {
   console.log(err.stack)
 
-  const status = err.statusCode ? res.statusCode : 500 // server error
+  const statusCode = err.statusCode || 500 // server error
+  const message = err.message || "Internal server error"
 
-  res.status(status)
-  res.json({ message: err.message, isError: true })
+  return res.status(statusCode).json({
+    success: false,
+    statusCode,
+    message,
+  })
 }
 
 module.exports = errorHandler
