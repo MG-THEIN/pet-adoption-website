@@ -12,14 +12,30 @@ const Singup = () => {
     })
   }
 
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    const res = await fetch("http://localhost:3000/auth/signup", {
+      method: "POST",
+      headers: {
+        "content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+
+    const data = await res.json()
+
+    console.log(data)
+  }
+
   console.log(formData)
 
   return (
-    <form className="signup">
+    <div className="signup">
       <div className="signup__header">
         <p>Sign Up</p>
       </div>
-      <div className="signup__container">
+      <form className="signup__container" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="First Name"
@@ -47,7 +63,7 @@ const Singup = () => {
         <input
           type="text"
           placeholder="ZIP Code"
-          id="zip_code"
+          id="zipcode"
           onChange={handleChange}
         />
         <input
@@ -70,7 +86,7 @@ const Singup = () => {
           </p>
         </div>
         <button>SIGN UP</button>
-      </div>
+      </form>
       <div className="signup__have-account">
         <p>
           Already have an account?{" "}
@@ -79,7 +95,7 @@ const Singup = () => {
           </Link>
         </p>
       </div>
-    </form>
+    </div>
   )
 }
 
